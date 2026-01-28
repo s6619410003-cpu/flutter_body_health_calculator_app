@@ -10,6 +10,10 @@ class BmrUi extends StatefulWidget {
 class _BmrUiState extends State<BmrUi> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Center(
+        child: Text('This is the BMR Screen.'),
+      ),
+    );
   }
 }
